@@ -1,0 +1,204 @@
+/* =================== */
+/* Basic Setup */
+/* =================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 15px;
+} 
+p{
+    margin-bottom: 15px;
+}
+a{
+    transition: .3s;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+/* Header Area CSS Start */
+.header-area {
+	background-image: url('../images/header-bg.jpg');
+	/* min-height: 810px; */
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	z-index: 999;
+}
+.header-area::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(150deg, #3224b0 0%, #be5ede 100%);
+	opacity: .9;
+	z-index: -1;
+}
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 25px 0;
+}
+.logo-area{}
+.logo-area a{}
+.menu-area{}
+.menu-area ul {
+	display: flex;
+	flex-direction: row;
+}
+.menu-area ul li {
+	margin-left: 30px;
+}
+.menu-area ul li a {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 0;
+	display: inline-block;
+}
+/* Header Area CSS End */
+/* Banner Area CSS Start */
+.banner-area {
+	
+}
+.banner-inner{
+    padding: 130px 0 100px 0;
+}
+.banner-inner h4{
+    color: #fff;
+	font-size: 18px;
+    text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.banner-inner h1{
+    color: #fff;
+	font-size: 120px;
+    font-weight: 100;
+    /* margin-bottom: 40px; */
+}
+.banner-inner a {
+	color: #fff;
+	background: transparent;
+	padding: 15px 40px;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 30px;
+}
+.banner-inner a:hover {
+	background: #6437B0;
+	border: 1px solid #8545BB;
+	transition: all 0.3s ease 0s;
+}
+.banner-inner span {
+	font-size: 12px;
+	padding-left: 10px;
+}
+/* Banner Area CSS End */
+/* Feature Area CSS Start */
+.feature-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 80px 0;
+}
+.feature-left {
+	flex-basis: 49%;
+}
+.feature-left h2 {
+	font-size: 36px;
+	font-weight: 100;
+}
+.feature-left h2 span {
+	font-weight: 700;
+}
+.feature-left p {
+	font-weight: 300;
+	margin: 20px 0;
+}
+.feature-left a{
+	color: #fff;
+	background: #6437B0;
+	padding: 15px 40px;
+	display: inline-block;
+	border-radius: 30px;
+}
+.feature-right {
+	flex-basis: 47%;
+}
+/* Feature Area CSS End */
+/* Parallux Area CSS Start */
+.parallux-area{
+	background-image: url('../images/parallux-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 100px 0;
+	height: 100vh;
+	position: relative;
+}
+.parallux-area::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(10 10 10)0%, rgb(0 0 0)100%);
+    z-index: 1;
+    opacity: 0.5;
+}
+.parallux-content{
+	position: absolute;
+    top: 25%;
+    left: 61%;
+    right: 8%;
+    z-index: 999;
+}
+.parallux-content h2{
+	font-size: 36px;
+	font-weight: 100;
+	color: #fff;
+}
+.parallux-content h2 span{
+	font-weight: 700;
+}
+.parallux-content p{
+	font-weight: 300;
+	margin: 20px 0;
+	color: #fff;
+}
+.parallux-content a{
+	color: #fff;
+	background: transparent;
+	padding: 15px 40px;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 30px;
+}
+.parallux-content a:hover{
+	background: #6437B0;
+	border: 1px solid #6437B0;
+	transition: all 0.3s ease 0s;
+}
+/* Parallux Area CSS End */
